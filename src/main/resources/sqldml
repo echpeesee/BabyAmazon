@@ -1,0 +1,30 @@
+#user table entries
+
+insert into user (userID, username, password, role) values (1234, "hara", "hpc123", "admin");
+insert into user (username, password, role) values ("basha", "basha123", "user");
+insert into user (username, password, role) values ("mahesh babu", "star123", "user");
+insert into user (username, password, role) values ("sethupathy", "vijay123", "user");
+
+
+#product table entries
+
+insert into products (product_id, brand, price, product_name) values (1024, "junglee", 345.90, "t- shirt");
+insert into products (product_id, brand, price, product_name) values (1025, "manyavar", 345.90, "kurta");
+insert into products (product_id, brand, price, product_name) values (1026, "meher", 345.90, "lehnga");
+insert into products (product_id, brand, price, product_name) values (1027, "junglee", 345.90, "jeans");
+insert into products (product_id, brand, price, product_name) values (1045, "meher", 345.90, "t-shirt");
+insert into products (product_id, brand, price, product_name) values (1047, "junglee", 345.90, "jeans");
+insert into products (product_id, brand, price, product_name) values (4624, "meher", 345.90, "kurta");
+insert into products (product_id, brand, price, product_name) values (1059, "junglee", 345.90, "lehenga");
+insert into products (product_id, brand, price, product_name) values (1067, "manyavar", 345.90, "t- shirt");
+insert into products (product_id, brand, price, product_name) values (1043, "manyavar", 345.90, "jeans");
+insert into products (product_id, brand, price, product_name) values (1567, "junglee", 345.90, "kurta");
+insert into products (product_id, brand, price, product_name) values (1987, "junglee", 345.90, "chinos");
+insert into products (product_id, brand, price, product_name) values (2345, "junglee", 345.90, "hoodie");
+insert into products (product_id, brand, price, product_name) values (3926, "meher", 345.90, "hoodie");
+insert into products (product_id, brand, price, product_name) values (4067, "manyavar", 345.90, "saree");
+insert into products (product_id, brand, price, product_name) values (9089, "meher", 345.90, "saree");
+
+
+
+insert into products (product_id, brand, price, product_name, added_to_cart_user_userid) values (9089, "meher", 345.90, "saree", 1234);
