@@ -77,6 +77,5 @@ public class Products {
 		this.brand = brand;
 	}
 	
-	
 
 }

@@ -43,12 +43,12 @@ public class ProductsService {
 
 	public List<Products> getproductsInCart(String username) {
 		User user = userRepository.findByUsername(username);
-		return user.getProductsInCart();
+		return productRepo.findProductsInCart(user.getUserID());
 	}
 	
 	public List<Products> getProductsOrdered(String username) {
 		User user = userRepository.findByUsername(username);
-		return user.getProductBought();
+		return productRepo.findProductsBought(user.getUserID());
 	}
-
+	
 }
